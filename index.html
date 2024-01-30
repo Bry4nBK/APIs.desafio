@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Moneda Nacional</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+ <link rel="stylesheet" href="assets/css/atyle.css">
+
+    </head>
+    <body>
+        <div class="box">
+        <header class="head">
+            <h1>Calculadora de Divisas Avanzada</h1>
+        </header>
+    
+        <div >
+            <div class="conversor">
+                <div class="input-conversor">
+                  <h2>cantidad a cambier:</h2>
+                    <input type="number" id="cantidad" placeholder="Ingresa el monto en CLP">
+                </div>
+                <div class="grupo-input-conversor">
+                    <h2>Selecciona la divisa a convertir:</h2>
+                    <select id="toCurrency" required>
+                        <option value="">Elige una divisa</option>
+                        <option value="dolar">Dólar estadounidense (USD)</option>
+                        <option value="euro">Euro (EUR)</option>
+                    </select>
+                </div>
+                <button id="convertir" onclick="convert()">Convertir</button>
+
+            </div>
+            <br>
+            <div id="result"></div>
+
+        </div>
+        <br>
+        <div>
+            <canvas id="graficoHistorico"></canvas>
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    </body>
+</html>

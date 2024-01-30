@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #181313;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.box {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+button {
+    background-color: #ff0000;
+    color: #000000;
+    cursor: pointer;
+    font-size: 20px;
+    padding:  10px;
+    width: 70%;
+}
+.grupo-input-conversor {
+    padding: 10px;
+}
+input {
+    font-size: 20px;
+    padding: 10px;
+}
+option {
+    font-size: 16px;
+    padding: 10px;
+}
+.seleccion-moneda {
+    font-size: 26px; 
+}
+canvas {
+    width: 800px;
+    height: 450px;
+    border: 10px solid rgb(6, 154, 14) ;
+    border-radius: 20px;
+}
+select {
+    width:  261px;
+    height: 50px;
+    font-size: 17px
+}
+.conversor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.grupo-input-conversor {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
